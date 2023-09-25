@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("/images/hero.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  /* background-position-y: 100px; */
+}
+
+.service-3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./images/service-3.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.service-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./images/service-2.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.service-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./images/service-1.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.about {
+  background-image: linear-gradient(
+      rgba(196, 196, 196, 0.3),
+      rgba(196, 196, 196, 0.3)
+    ),
+    url("./images/about.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.blog-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/blog-1.png");
+  background-size: cover;
+  background-position: center;
+  /* background-attachment: fixed; */
+}
+.blog-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/blog-2.png");
+  background-size: cover;
+  background-position: center;
+  /* background-attachment: fixed; */
+}
+
+.blog-3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/blog-3.png");
+  background-size: cover;
+  background-position: center;
+  /* background-attachment: fixed; */
+}
+
+.zoom-animation {
+  animation: scale 3s linear infinite;
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+@keyframes scale {
+  0% {
+    transform: scale(1);
+    transform: rotate(-8deg);
+  }
+  50% {
+    transform: scale(1.1);
+    transform: rotate(8deg);
+  }
+  100% {
+    transform: scale(1);
+    transform: rotate(-8deg);
+  }
+}
